@@ -1,2 +1,21 @@
-# ScientificResearchPaperTemplate
-Scientific Research Paper Template
+# Scientific Research Paper Template
+
+## 서론
+* 연구 배경, 필요성
+* 문헌 조사
+* 연구 목적, 예상 결과
+
+## 본론
+* 실험 계획, 절차
+* 실험 내용, 방법
+* 실험 결과, 타당성, 유효성 검사
+
+## 결론
+* 전체 결론
+* 기대 효과, 문제점
+* 향후 보완 계획
+
+## 부록
+* 참고 문헌
+* 소스코드
+* 기타 재현에 필요한 모든 자료
