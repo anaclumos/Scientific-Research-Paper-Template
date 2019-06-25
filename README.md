@@ -1,35 +1,93 @@
+* **민족사관고등학교 컴퓨터 시뮬레이션 과제 연구** 수업 기반
+* 모든 사항은 **해당 사항이 있을 경우 (If Applicable)** 라는 말이 생략되어 있음
+* ⭐️ if applicable!
+
 # 연구 논문 양식 (Scientific Research Paper Template)
 
-## 서론 `Introduction`
-* 연구 배경, 필요성 `Background Information & Research Proposal`
-* 문헌 조사 `Literature Review`
-* 연구 목적 `Purpose of the Research`
-* 가설 또는 예상 결과 `Hypothesis or Expected Results`
+## I. 서론 `Introduction`
+#### 1. 연구 배경, 필요성 `Background Information & Research Proposal`
+* "왜 이 문제를 풀어야 하는가?"에 대한 근본적 물음에 대한 대답
+* 기존의 현상과 여기서 찾은 문제점 설명
+* "문제"라고 함은, 어딘가 잘못되어서 고쳐야 한다는 뜻이 아니라 내가 해결, 개선, 설명, 연구하고 싶은 모든 태스크를 포함하는 말
 
-## 본론 `Research`
+> (극도로 단순화된 예시) 불량식품은 간단히 소비할 수 있고 맛이 좋다 (배경) 하지만 불량 식품은 몸에 좋지 않으며, 아이들의 건강을 해칠 수 있다 (문제 현상) 아이들이 불량 식품 대신 가볍게 소비할 수 있는 건강 먹거리가 필요하다
 
-### 실험 중심 연구 `Experiment oriented research`
-* 실험 계획, 절차 `Plan & Procedure`
-* 실험 내용, 방법 `Content & Methodology`
-* 실험 결과, 타당성, 유효성 검사 `Results, Validity, Effectiveness`
+#### 2. 문헌 조사 `Literature Review`
+* 논문 조사는 물론 오픈소스 연구와 시장 동향도 파악
+
+#### 3. 연구 목적 `Purpose of the Research`
+* 이루고자 하는 목적을 명확하게 정리
+
+#### 4. 가설 또는 예상 결과 `Hypothesis or Expected Results`
+* 연구 도중 예측되는 연구 흐름의 방향
+* 목적을 달성하였을 때 얻을 수 있는 예상 Output
+
+## II. 본론 `Research`
+
+### 실험 중심 연구 `Experiment Oriented Research`
+1. 실험 계획, 절차 `Plan & Procedure`
+1. 실험 내용, 방법 `Content & Methodology`
+1. 실험 결과, 타당성, 유효성 검사 `Results, Validity, Effectiveness`
+
+> 전통적인 실험 보고 논문과 동일함
 
 or
 
-### 소프트웨어 개발 중심 연구 `Software oriented research`
-* 문제 정의 `Problem Definition`
-* 해결책 설계 `Solution Planning`
-* 실행 `Execution (Often with Code)`
-* 검증 `Testing (Often with Testing Unit)`
-* 배포 `Distribution`
+### 소프트웨어 개발 중심 연구 `Software Development Oriented Research`
 
-> Agile 방식의 개발이어도 일반적인 Documentation에서는 문제의 설명, 해결 방법 설명, 해결책, 검증과 테스트 유닛, 그리고 해결책이 어떻게 배포되었는지 설명하는 것이 일반적입니다.
+#### 1. 문제 정의 `Problem Definition`
+* 해결하고 싶은 문제점을 정리하는 것
+* "왜 이 문제를 풀어야 하는가?" 같이 문제 해결 자체에 정당성을 부여하는 텍스트는 앞서 서론에 등장했으니 반복 지양
+* 위의 목적을 달성하기 위해서 해결해야하는 여러 소규모 문제로 분해
+* 각 소규모 문제 별로 달성해야하는 조건 또는 개발 방향에 대해서 설명
+* 이 경우 소규모 문제마다 하나의 해결책이 나오는 것이 아닐 수 있음 (아닌 경우가 더 많음)
+* 전반적인 흐름을 항상 염두에 두어야 함
+* 하나의 해결 방향이 여러 문제를 해결할 수 있고 하나의 문제에 여러 해결 방향이 도입될 수 있음
 
-## 결론 `Conclusion`
-* 전체 결론 `Overall Conclusion`
-* 기대 효과 `Expected Effects`
-* 문제점 및 향후 보완 계획 `Problems and Future Plans`
+> (극도로 단순화된 예시) 아이들이 불량 식품 대신 가볍게 소비할 수 있는 건강 먹거리를 개발 (목적) 하기 위해서는 1. 아이들이 다시 찾을 정도로 맛이 좋아야 하며 2. 아이들이 쉽게 구할 수 있어야 하고 3. 아이들이 부담 없이 구매할 수 있을 정도로 저렴해야 하며 4. 무엇보다 건강에 유익해야 한다. 우선 첫 번째 문제를 해결하기 위해서는... 
 
-## 부록 `Appendix`
-* 참고 문헌 `References`
-* (경우에 따라) 소스 코드 `Source Code (occasionally)`
-* 기타 재현에 필요한 모든 자료 `Other Data to Replicate the Research`
+#### 2. 해결책 설계 `Solution Planning`
+* 큰 그림 위주로 설명
+* 세부 사항보다는 "왜 이 방식을 통하면 목표한 바를 달성할 수 있는가"에 대해 설명
+* 전체적인 흐름을 중심으로 서술
+
+#### 3. 실행 `Execution (Often with Code)`
+* 작은 그림 위주로 설명
+* (복잡한 코드일 경우) 코드를 모듈 단위로 분해해서 설명
+* 모듈의 계층 구조와 용도, I/O 형식 등을 명확하게 설명
+
+#### 4. 검증 `Testing (Often with Testing Unit)`
+* (필요하다면) 각 모듈이 정상적으로 동작함을 검증 코드와 함께 설명
+* 내가 원하는 목적이 달성되었는지 결과의 유효성을 검증
+
+#### 5. 배포 `Distribution`
+* 이렇게 해결한 해결책을 어떻게 적용할 것인지 설명
+* 오픈 소스 프로젝트라면 프로젝트의 링크를 첨부
+
+> 개발 단계에서는 Agile 방식으로 개발했어도 Documentation에서는 문제, 해결 계획, 해결책, 검증과 테스트 유닛, 그리고 해결책이 어떻게 배포되었는지 설명하는 것이 일반적임
+
+## III. 결론 `Conclusion`
+#### 1. 전체 결론 `Overall Conclusion`
+* 지금까지의 내용 정리
+* 앞서 서술된 실험 및 해결책 등을 통해서 알게된 것 및 달성한 것에 대해 설명
+* 그 외 여러 결론
+
+#### 2. 기대 효과 `Expected Effects`
+* 결론을 통해서 기대할 수 있는 효과
+* 차후 연구의 활용성 및 유용성
+
+#### 3. 문제점 및 향후 보완 계획 `Problems and Future Plans`
+* 연구의 한계점 분석
+* 한계점을 개선하기 위해서 필요한 추가 연구 방향
+* 추후 연구자들을 위한 제안
+
+## IV. 부록 `Appendix`
+#### 1. 참고 문헌 `References`
+* 참고한 여러 문헌들
+
+#### 2. (경우에 따라) 소스 코드 `Source Code (occasionally)`
+* 오픈 소스 프로젝트 또는 프로젝트 파일 전체
+* 어느 배포 방식을 택해도, 연구의 전체 재현이 가능한 구조여야 함
+
+#### 3. 기타 재현에 필요한 모든 자료 `Other Data to Replicate the Research`
+* 이 외 필요한 자료 등
