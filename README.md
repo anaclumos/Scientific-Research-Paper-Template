@@ -2,7 +2,7 @@
 * 모든 사항은 **해당 사항이 있을 경우 (If Applicable)** 라는 말이 생략되어 있음
 * ⭐️ if applicable!
 
-# 연구 논문 양식 (Scientific Research Paper Template)
+# 연구 보고서 양식 (Scientific Research Paper Template)
 
 ## I. 서론 `Introduction`
 #### 1. 연구 배경, 필요성 `Background Information & Research Proposal`
